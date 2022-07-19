@@ -1,6 +1,4 @@
 * {
-    outline: dashed red 1px;    
-    box-sizing: border-box;
  }
  body {
     background-color:black ;
@@ -16,7 +14,6 @@
      color : darkorange ;
      position : relative;
      top: 30px;
-     /* border: back-drop; */ 
  }
  
  
@@ -56,11 +53,10 @@
     color: darkorange;
     
  }
- 
  .container-content{
     display: flex;
     flex-wrap: wrap;
-    align-items: start;  
+    align-items: baseline;  
     margin: 50px 0;
  }
  #Work{
@@ -88,7 +84,6 @@
  #workCont{
     width: 25%;
     padding-right: 10px;
-    /* border-right: 5px solid orange; */
     display: flex;
     justify-content: center;
  }
@@ -110,7 +105,11 @@
     width: 70%;
     padding-left: 10px;
     border-left: solid darkorange 5px;
-    color: darkorange;
-    font-size: large;
- }
- 
+
+ } .container-content div p {
+   font-size: 27px;
+   display: flex;
+    justify-content: space-between;
+    align-content: center;
+   color: darkorange;
+}
