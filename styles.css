@@ -1,4 +1,6 @@
 * {
+    /* outline: dashed red 1px;    
+    box-sizing: border-box; */
  }
  body {
     background-color:black ;
@@ -105,11 +107,12 @@
     width: 70%;
     padding-left: 10px;
     border-left: solid darkorange 5px;
+    color: darkorange;
 
  } .container-content div p {
    font-size: 27px;
    display: flex;
     justify-content: space-between;
     align-content: center;
-   color: darkorange;
+   
 }
